@@ -1,0 +1,17 @@
+[
+  null,
+  {
+    "name": "QuestStarted",
+    "events": [
+      { "name": "questId", "type": "uint256", "value": "2308330" },
+      {
+        "name": "player",
+        "type": "address",
+        "value": "0x216a481d4d8ca2450b1244e4f0aff194894abcbb"
+      },
+      { "name": "heroId", "type": "uint256", "value": "31558" },
+      { "name": "quest", "type": "tuple", "value": [] }
+    ],
+    "address": "0x5100bd31b822371108a0f63dcfb6594b9919eaf4"
+  }
+]

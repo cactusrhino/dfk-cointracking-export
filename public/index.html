@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A FeathersJS application</title>
+    <meta name="description" content="A FeathersJS server" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="js/papaparse.min.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <main class="container">
+      <form name="addressForm" id="addressForm">
+        <input id="addressInput" placeholder="Enter your address" />
+        <button type="button" onclick="submitAddress()">Submit</button>
+      </form>
+      <div id="loading" style="visibility: hidden">Please wait...</div>
+      <div id="skipped"></div>
+
+      <footer></footer>
+    </main>
+    <script src="js/index.js" type="text/javascript"></script>
+  </body>
+</html>
